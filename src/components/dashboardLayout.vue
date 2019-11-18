@@ -49,11 +49,6 @@
                         color="grey darken-3">
                     <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
                     <VSpacer />
-                    <v-toolbar-items>
-        <v-btn text router to="/">Home</v-btn>
-        <v-btn text router to="/user">CRUD User</v-btn>
-        <v-btn text router to="/sparepart">CRUD Sparepart</v-btn>
-      </v-toolbar-items>
                         <img src="../assets/logo.svg" style="height:45px;width:45px">
                     <v-toolbar-title
                         style="font-size: 21px;"
@@ -74,7 +69,7 @@
         drawer: null,
         items: [
         { title: 'User Controller', icon: 'mdi-human-male' },
-        { title: 'Sparepart Controller', icon: 'mdi-human-male' }
+        { title: 'Sparepart', icon: 'mdi-human-male' },
         ],
         }
         },

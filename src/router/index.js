@@ -10,10 +10,10 @@ import Router from 'vue-router'
         component: DashboardLayout,
         children: [
     {
-        name: 'sparepartController',
+        name: 'UserController',
         path: '',
         component: loadView('sparepartController')
-        }
+        },
         ]
     },
     ]
